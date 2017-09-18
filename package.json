@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "description": "vuejsapp",
   "main": "index.js",
-  "dependencies": {},
+  "homepage": "https://github.com/Desimor/vuejsapp#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "init node"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git://github.com/desimor/vuejsapp.git"
+    "url": "git+https://github.com/Desimor/vuejsapp.git"
   }
 }
