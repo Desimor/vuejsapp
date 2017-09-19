@@ -10,9 +10,11 @@
     <title>Vue.js App</title>
 </head>
 <body>
-    <div class="topbar">Something</div>
+    <div class="topbar">Bible Verses</div>
     <div id="app">
-       {{message}} 
+        <div v-html="message"></div>
+        <button v-on:click="previousID">Previous</button>
+        <button v-on:click="nextID">Next</button>
     </div>
     <script src="js/app.js"></script>
 </body>
